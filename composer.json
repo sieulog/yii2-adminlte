@@ -1,15 +1,26 @@
 {
-    "name": "sieulog/yii2-adminlte",
-    "require-dev": {
-        "almasaeed2010/adminlte": "^2.3",
-        "fortawesome/font-awesome": "^4.4",
-        "driftyco/ionicons": "^2.0"
-    },
-    "authors": [
-        {
-            "name": "Nguyen Tuan Sieu",
-            "email": "tuan@sieulog.com"
-        }
-    ],
-    "require": {}
+  "name": "sieulog/yii2-adminlte",
+  "authors": [
+    {
+      "name": "Nguyen Tuan Sieu",
+      "email": "tuan@sieulog.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "*",
+    "almasaeed2010/adminlte": "^2.3",
+    "fortawesome/font-awesome": "^4.4",
+    "driftyco/ionicons": "^2.0"
+  },
+  "extra": {
+    "asset-installer-paths": {
+      "npm-asset-library": "vendor/npm",
+      "bower-asset-library": "vendor/bower"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "sieulog\\adminlte\\": ""
+    }
+  }
 }
