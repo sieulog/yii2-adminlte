@@ -9,17 +9,19 @@ use yii\web\AssetBundle;
  */
 class Assets extends AssetBundle
 {
-    public $sourcePath = '@bower/AdminLTE';
+    public $sourcePath = '@bower/admin-lte';
     public $js = [
         'dist/js/app.min.js',
     ];
     public $css = [
         'dist/css/AdminLTE.css',
+        'dist/css/skins/_all-skins.min.css',
     ];
     public $depends = [
         'yii\web\JqueryAsset',
-        'yii\web\BootstrapAsset',
-        'yii\web\BootstrapPluginAsset',
-        'sieulog\adminlte\FontAwesomeAsset'
+        'yii\bootstrap\BootstrapAsset',
+        'yii\bootstrap\BootstrapPluginAsset',
+        'sieulog\adminlte\FontAwesomeAssets',
+        'sieulog\adminlte\IoniconAssets'
     ];
 }

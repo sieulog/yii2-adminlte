@@ -9,10 +9,10 @@ use yii\web\AssetBundle;
  */
 class FontAwesomeAssets extends AssetBundle
 {
-    public $sourcePath = '@bower/adminlte';
+    public $sourcePath = '@bower/fontawesome';
     public $js = [];
     public $css = [
-        'themes/smoothness/jquery-ui.css',
+        'css/font-awesome.css',
     ];
     public $depends = [];
 }
