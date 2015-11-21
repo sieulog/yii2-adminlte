@@ -8,9 +8,10 @@
   ],
   "require": {
     "yiisoft/yii2": "*",
-    "almasaeed2010/adminlte": "^2.3",
-    "fortawesome/font-awesome": "^4.4",
-    "driftyco/ionicons": "^2.0"
+    "bower-asset/admin-lte": "^2.3",
+    "bower-asset/fontawesome": "^4.4",
+    "bower-asset/ionicons": "^2.0",
+    "bower-asset/jquery": "^2.1"
   },
   "extra": {
     "asset-installer-paths": {
